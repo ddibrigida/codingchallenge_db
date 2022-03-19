@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+}
+.container{
+  width: 1120px;
+  height: 800px;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+header{
+  text-align: center;
+}
+
+header > img{
+  width: 20%;
+  margin-top: 100px;
+}
+
+.title{
+  color: limegreen;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+nav{
+  background-color: limegreen;
+  width: 82%;
+  height: 5%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2px;
+}
+
+section{
+  width: 82%;
+  margin: auto;
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=button]{
+  margin-top: 10px;
+}
+
+section > h2{
+  display: inline-block;
+  color: white;
+}
+
+.address, .charge-status{
+  color: lightgrey;
+}
+
+.orange.bar{
+  width: 35%;
+  height: 25px;
+  background-color: orange;
+  border-radius: 3px;
+}
+
+.green.bar{
+  width: 60%;
+  height: 25px;
+  background-color: limegreen;
+  border-radius: 3px
+}
+
+.red.bar{
+  width: 15%;
+  height: 25px;
+  background-color: #B22222;
+  border-radius: 3px
+}
